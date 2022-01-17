@@ -34,10 +34,10 @@ Total time: 1 Hour 3 Minutes 15 Sec
 
 ## Job Execution Details After Optimization:
 
-nohup spark-submit --name log_analysis_test --master yarn --deploy-mode cluster --conf spark.executor.memory=2g  --conf spark.executor.cores=3 --conf spark.executor.instances=1 --conf spark.dynamicAllocation.enabled=false --conf spark.sql.adaptive.enabled=false /home/hadoop/loganalysis/log_analysis_v1.py > /home/hadoop/loganalysis/log_analysis_v1.log &
+nohup spark-submit --name log_analysis_test --master yarn --deploy-mode cluster --conf spark.executor.memory=2g  --conf spark.executor.cores=3 --conf spark.executor.instances=1 --conf spark.sql.adaptive.enabled=false /home/hadoop/loganalysis/log_analysis_v1.py > /home/hadoop/loganalysis/log_analysis_v1.log &
 
 ### Execution Time:
-Start time : 2022-01-17 10:14:24.386305
-End time : 2022-01-17 10:44:23.175671
+Start time : 2022-01-17 13:31:44.203953
+End time : 2022-01-17 13:47:52.886541
 
-Total time: 0 Hour 29 Minutes 59 Sec
+Total time: 0 Hour 16 Minutes 09 Sec
